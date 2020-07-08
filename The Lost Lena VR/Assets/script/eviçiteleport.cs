@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class eviçiteleport : MonoBehaviour
+{
+    public int code2;
+
+    void OnTriggerStay(Collider collider)
+    {
+        if (collider.gameObject.name == "player1")
+        {
+            foreach (eviçiteleport tp in FindObjectsOfType<eviçiteleport>())
+            {
+                if (tp.code2 == code2 && tp != this)
+                {
+                    Vector3 position = tp.gameObject.transform.position;
+                    position.y += 2;
+                    collider.gameObject.transform.position = position;
+
+                }
+            }
+        }
+
+        SceneManager.LoadScene("vrscrean03");
+    }
+}

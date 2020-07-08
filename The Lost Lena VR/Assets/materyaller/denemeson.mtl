@@ -1,0 +1,33 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl FrontColor
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.330000 0.330000 0.330000
+
+newmtl cerisier
+Ka 0.000000 0.000000 0.000000
+Kd 0.596078 0.337255 0.164706
+Ks 0.330000 0.330000 0.330000
+map_Kd denemeson/cerisier.jpg
+
+newmtl Metal_Corrogated_Shiny
+Ka 0.000000 0.000000 0.000000
+Kd 0.756863 0.756863 0.756863
+Ks 0.330000 0.330000 0.330000
+map_Kd denemeson/Metal_Corrogated_Shiny.jpg
+
+newmtl M_0014_DarkSalmon
+Ka 0.000000 0.000000 0.000000
+Kd 0.913725 0.588235 0.478431
+Ks 0.330000 0.330000 0.330000
+
+newmtl Mirror_01
+Ka 0.000000 0.000000 0.000000
+Kd 0.729412 0.729412 0.729412
+Ks 0.330000 0.330000 0.330000
+d 0.630000
+map_Kd denemeson/Mirror_01.jpg
+
